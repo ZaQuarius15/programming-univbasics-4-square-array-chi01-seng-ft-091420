@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
+  while array do |index|
+    array[index] = (array[index] * array[index])
+  end
+  array
 end

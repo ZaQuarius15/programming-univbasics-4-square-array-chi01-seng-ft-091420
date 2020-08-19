@@ -1,6 +1,7 @@
 def square_array(array)
-  while array do |index|
-    array[index] = (array[index] * array[index])
+  counter = 0
+  while array[counter] do 
+    array[counter] = (array[counter] * array[counter])
   end
   array
 end
